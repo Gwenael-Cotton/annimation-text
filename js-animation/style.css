@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-family: fantasy;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+span {
+    opacity: 0;
+    transition: all 0.7s ease;
+    transform: translateX(50px);
+    display: inline-block;
+}
+
+.spacing {
+    padding: 10px;
+}
+
+span.letter {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.annimated {
+    transition: all 1s ease;
+    transform: translateX(300px);
+}
+
+.subtitle {
+    color: white;
+    font-family: fantasy;
+    font-size: 1.5rem;
+    transition: all 0.7s ease;
+    transform: translateX(0);
+}
